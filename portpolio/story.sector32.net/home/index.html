@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta name="title" content="Sector 32">
+	<meta name="description" content="Home of Piet Dewijngaert, creative developer">
+	<meta name="keywords" content="Sector 32, Sector, 32, creative, developer, Piet, Dewijngaert">
+	<meta name="author" content="Sector 32">
+
+	<meta property="og:title" content="Sector 32">
+	<meta property="og:site_name" content="Sector 32">
+	<meta property="og:description" content="Home of Piet Dewijngaert, creative developer">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://www.sector32.net/images/share-min.png">
+	<meta property="og:url" content="https://www.sector32.net">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XLQPY7530V"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-XLQPY7530V');
+	</script>
+
+	<title>Home</title>
+
+		
+
+		<link rel="modulepreload" href="/_app/start-54ffd8a6.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-e41d84ae.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-2bb28bab.js">
+		<link rel="modulepreload" href="/_app/chunks/main.store-b2f445ba.js">
+		<link rel="modulepreload" href="/_app/pages/home/index.svelte-e8769132.js">
+		<link rel="modulepreload" href="/_app/pages/home/grid/Grid.svelte-71afaf08.js">
+		<link rel="modulepreload" href="/_app/pages/home/card/CardAnimation.svelte-f0e596a4.js">
+		<link rel="modulepreload" href="/_app/chunks/objectWrapper-56890d06.js">
+		<link rel="modulepreload" href="/_app/pages/home/card/Card.svelte-5fa7e6f2.js">
+		<link rel="modulepreload" href="/_app/chunks/Extra-c69edcfb.js">
+		<link rel="modulepreload" href="/_app/chunks/airstripLights-436a2309.js">
+		<link rel="modulepreload" href="/_app/chunks/gridBlinker-76c2d313.js">
+		<link rel="modulepreload" href="/_app/chunks/RandomText-f5deae35.js">
+		<link rel="modulepreload" href="/_app/pages/home/ui/ButtonStrip.svelte-c863f719.js">
+		<link rel="modulepreload" href="/_app/pages/home/textCard/TextCard.svelte-a5d39658.js">
+		<link rel="modulepreload" href="/_app/pages/home/bg/Background.svelte-713364f6.js">
+		<link rel="modulepreload" href="/_app/pages/home/bg/Welcome.svelte-bc572c89.js">
+		<link rel="modulepreload" href="/_app/pages/home/bg/HomeAnim.svelte-86a09e7b.js">
+		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-382effd0.css">
+		<link rel="stylesheet" href="/_app/assets/pages/home/index.svelte-611dde6a.css">
+		<link rel="stylesheet" href="/_app/assets/pages/home/grid/Grid.svelte-1de38b12.css">
+		<link rel="stylesheet" href="/_app/assets/pages/home/card/CardAnimation.svelte-e19129fa.css">
+		<link rel="stylesheet" href="/_app/assets/pages/home/card/Card.svelte-f55327c7.css">
+		<link rel="stylesheet" href="/_app/assets/Extra-dcf454ba.css">
+		<link rel="stylesheet" href="/_app/assets/pages/home/ui/ButtonStrip.svelte-b6cc1cfb.css">
+		<link rel="stylesheet" href="/_app/assets/pages/home/textCard/TextCard.svelte-6f9c3fe0.css">
+		<link rel="stylesheet" href="/_app/assets/pages/home/bg/Background.svelte-c4063e24.css">
+		<link rel="stylesheet" href="/_app/assets/pages/home/bg/Welcome.svelte-177afcab.css">
+		<link rel="stylesheet" href="/_app/assets/pages/home/bg/HomeAnim.svelte-08ff1814.css">
+
+		<script type="module">
+			import { start } from "/_app/start-54ffd8a6.js";
+			start({
+				target: document.body,
+				paths: {"base":"","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/_app/pages/__layout.svelte-2bb28bab.js"),
+						import("/_app/pages/home/index.svelte-e8769132.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "\u002Fhome",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+</head>
+
+<body>
+	<div id="svelte">
+
+
+
+
+<div class="container svelte-6c80n8">
+
+
+
+<div class="noiseContainer svelte-iauu4t"><canvas class="noiseCanvas"></canvas>
+    <div class="flash svelte-iauu4t"></div></div>
+
+<div class="src svelte-iauu4t"><img alt="imgSrc" id="imgSrc" class="svelte-iauu4t">
+    <canvas id="imgCanvas" class="svelte-iauu4t"></canvas>
+    <canvas id="drawCanvas" class="svelte-iauu4t"></canvas>
+</div>
+
+  <div class="wrapper svelte-o8z8kc"><div class="inner svelte-o8z8kc"><div class="cube"><div class="box svelte-o8z8kc"><div class="copy svelte-o8z8kc">WELCOME</div></div>
+      <div class="stretchWrapper svelte-qy50tw"><div class="stretch svelte-qy50tw">
+
+</div>
+  <div class="stretch svelte-qy50tw">
+
+</div>
+  <div class="stretch svelte-qy50tw">
+
+</div>
+  <div class="stretch svelte-qy50tw">
+
+</div>
+</div></div></div>
+</div>
+
+<div class="wrapper svelte-gi281d"><div class="line lineH lineH1 svelte-gi281d"></div>
+  <div class="line lineH lineH2 svelte-gi281d"></div>
+  <div class="line lineV lineV2 svelte-gi281d"></div>
+
+  <div class="box box_left svelte-gi281d"><div class="box_bg svelte-gi281d"></div></div>
+  <div class="box_center svelte-gi281d"><div class="box_bg svelte-gi281d"></div></div>
+  <div class="box box_right svelte-gi281d"><div class="box_bg svelte-gi281d"></div></div>
+</div>
+
+  
+
+  <div class="wrapper svelte-ywp1a0"><div class="cardWrapper svelte-ywp1a0"><div class="cardContainer svelte-ywp1a0"><div class="cardItem svelte-ywp1a0"><div class="card svelte-ywp1a0"><div class="card svelte-o9hqro"><div class="bar svelte-o9hqro"></div>
+
+  <div class="line1 svelte-o9hqro"></div>
+  <div class="line2 svelte-o9hqro"></div>
+
+  <div class="container svelte-o9hqro"></div>
+
+  <div>Hi, I&#39;m</div>
+  <div class="big svelte-o9hqro">Piet</div>
+
+  <div class="top svelte-o9hqro">Sector.32</div>
+</div></div>
+          </div><div class="cardItem svelte-ywp1a0"><div class="card svelte-ywp1a0"><div class="card svelte-o9hqro"><div class="bar svelte-o9hqro"></div>
+
+  <div class="line1 svelte-o9hqro"></div>
+  <div class="line2 svelte-o9hqro"></div>
+
+  <div class="container svelte-o9hqro"></div>
+
+  <div>Hi, I&#39;m</div>
+  <div class="big svelte-o9hqro">Piet</div>
+
+  <div class="top svelte-o9hqro">Sector.32</div>
+</div></div>
+          </div><div class="cardItem svelte-ywp1a0"><div class="card svelte-ywp1a0"><div class="card svelte-o9hqro"><div class="bar svelte-o9hqro"></div>
+
+  <div class="line1 svelte-o9hqro"></div>
+  <div class="line2 svelte-o9hqro"></div>
+
+  <div class="container svelte-o9hqro"></div>
+
+  <div>Hi, I&#39;m</div>
+  <div class="big svelte-o9hqro">Piet</div>
+
+  <div class="top svelte-o9hqro">Sector.32</div>
+</div></div>
+          </div><div class="cardItem svelte-ywp1a0"><div class="card svelte-ywp1a0"><div class="card svelte-o9hqro"><div class="bar svelte-o9hqro"></div>
+
+  <div class="line1 svelte-o9hqro"></div>
+  <div class="line2 svelte-o9hqro"></div>
+
+  <div class="container svelte-o9hqro"></div>
+
+  <div>Hi, I&#39;m</div>
+  <div class="big svelte-o9hqro">Piet</div>
+
+  <div class="top svelte-o9hqro">Sector.32</div>
+</div></div>
+          </div><div class="cardItem svelte-ywp1a0"><div class="card svelte-ywp1a0"><div class="card svelte-o9hqro"><div class="bar svelte-o9hqro"></div>
+
+  <div class="line1 svelte-o9hqro"></div>
+  <div class="line2 svelte-o9hqro"></div>
+
+  <div class="container svelte-o9hqro"></div>
+
+  <div>Hi, I&#39;m</div>
+  <div class="big svelte-o9hqro">Piet</div>
+
+  <div class="top svelte-o9hqro">Sector.32</div>
+</div></div>
+          </div><div class="cardItem svelte-ywp1a0"><div class="card svelte-ywp1a0"><div class="card svelte-o9hqro"><div class="bar svelte-o9hqro"></div>
+
+  <div class="line1 svelte-o9hqro"></div>
+  <div class="line2 svelte-o9hqro"></div>
+
+  <div class="container svelte-o9hqro"></div>
+
+  <div>Hi, I&#39;m</div>
+  <div class="big svelte-o9hqro">Piet</div>
+
+  <div class="top svelte-o9hqro">Sector.32</div>
+</div></div>
+          </div>
+
+        <div class="lines svelte-ywp1a0"><div class="line horizontal svelte-ywp1a0"></div>
+          <div class="line horizontal svelte-ywp1a0"></div>
+          <div class="line horizontal svelte-ywp1a0"></div>
+          <div class="line vertical svelte-ywp1a0"></div>
+          <div class="line vertical svelte-ywp1a0"></div>
+          <div class="line vertical svelte-ywp1a0"></div>
+          <div class="line vertical svelte-ywp1a0"></div></div>
+
+        <div class="frames svelte-ywp1a0"><div class="frame frame1 svelte-ywp1a0"></div>
+          <div class="frame frame2 svelte-ywp1a0"></div>
+          <div class="frame frame3 svelte-ywp1a0"></div></div>
+
+        <div class="art svelte-ywp1a0"><div class="top svelte-ywp1a0"><div>FETCHING</div>
+            <div>DATA-CARD</div></div>
+          <div class="bot svelte-ywp1a0"><div>S.32</div>
+            <div>&gt;&gt;565.76417.297<br>
+              SSID
+            </div></div></div></div></div></div></div>
+
+
+
+
+
+<div class="extras home svelte-ciyhv7"><div class="leftSquare column1 row1 bg2 svelte-ciyhv7"></div>
+  <div class="leftSquare column1 row2 bg2 svelte-ciyhv7"></div>
+  <div class="leftSquare column2 row3 bg2 svelte-ciyhv7"></div>
+  <div class="leftSquare column2 row4 bg2 svelte-ciyhv7"></div>
+  <div class="leftSquare column2 row5 bg2 svelte-ciyhv7"></div>
+  <div class="sideText sideText-left color2 svelte-ciyhv7">S32.THKS_1130+8</div>
+
+  <div class="rightSquare row1 column1 bg2 svelte-ciyhv7"></div>
+  <div class="rightSquare row1 column2 bg2 svelte-ciyhv7"></div>
+  <div class="rightSquare row1 column3 bg2 svelte-ciyhv7"></div>
+  <div class="rightSquare row2 column1 bg2 svelte-ciyhv7"></div>
+  <div class="rightSquare row3 column2 bg2 svelte-ciyhv7"></div>
+  <div class="rightSquare row3 column3 bg2 svelte-ciyhv7"></div>
+  <div class="rightSquare row4 column2 bg2 svelte-ciyhv7"></div>
+  <div class="rightSquare row4 column3 bg2 svelte-ciyhv7"></div>
+  <div class="sideText sideText-right color2 svelte-ciyhv7">S.32</div>
+
+  <div class="bottomText bottomText-1 color1 svelte-ciyhv7"><div class="title svelte-ciyhv7">Play/Resume</div>
+    <div class="body svelte-ciyhv7">playback</div></div>
+
+  <div class="bottomText bottomText-2 color1 svelte-ciyhv7"><div class="title svelte-ciyhv7">Stop</div>
+    <div class="body svelte-ciyhv7">disconnect</div></div>
+
+  <div class="bottomText bottomText-3 color1 svelte-ciyhv7"><div class="title svelte-ciyhv7">RW</div>
+    <div class="body svelte-ciyhv7">back</div></div>
+
+  <div class="bottomText bottomText-4 color1 svelte-ciyhv7"><div class="title svelte-ciyhv7">FF</div>
+    <div class="body svelte-ciyhv7">forward</div></div></div>
+
+
+
+<div class="bg bg-1 svelte-17w7w1u"></div>
+<div class="bg bg-2 svelte-17w7w1u"></div>
+
+<div class="header svelte-17w7w1u"><div class="content svelte-17w7w1u">
+
+</div>
+</div>
+
+
+<canvas class="noiseContainer svelte-1cmnta6"></canvas>
+
+
+
+			
+		</div>
+</body>
+
+</html>

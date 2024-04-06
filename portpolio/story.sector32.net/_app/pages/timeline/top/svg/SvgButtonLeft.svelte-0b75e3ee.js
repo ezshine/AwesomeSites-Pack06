@@ -1,0 +1,7 @@
+import{S as x,i as E,s as w,U as n,t as L,V as l,a as r,g as H,d as a,b as s,f as B,I as c,J as m}from"../../../../chunks/vendor-e41d84ae.js";function S(_){let t,d,f,u,g,o,i,p;return{c(){t=n("svg"),d=n("defs"),f=n("style"),u=L(`.cls-1 {
+        fill: #ee711d;
+      }
+    `),g=n("polygon"),o=n("path"),i=n("polygon"),p=n("polygon"),this.h()},l(h){t=l(h,"svg",{id:!0,"data-name":!0,xmlns:!0,viewBox:!0});var e=r(t);d=l(e,"defs",{});var v=r(d);f=l(v,"style",{});var y=r(f);u=H(y,`.cls-1 {
+        fill: #ee711d;
+      }
+    `),y.forEach(a),v.forEach(a),g=l(e,"polygon",{points:!0}),r(g).forEach(a),o=l(e,"path",{class:!0,d:!0,transform:!0}),r(o).forEach(a),i=l(e,"polygon",{class:!0,points:!0}),r(i).forEach(a),p=l(e,"polygon",{class:!0,points:!0}),r(p).forEach(a),e.forEach(a),this.h()},h(){s(g,"points","14.28 42 47.33 42 47.33 2 14.28 2 2.33 22 14.28 42"),s(o,"class","cls-1"),s(o,"d","M13.81,0H50V44H13.81L.67,22ZM46,4H16.08L5.33,22,16.08,40H46Z"),s(o,"transform","translate(-0.67)"),s(i,"class","cls-1"),s(i,"points","34.56 7.85 26.41 21.51 34.56 36.15 42.72 36.15 34.56 21.51 42.72 7.85 34.56 7.85"),s(p,"class","cls-1"),s(p,"points","19.29 7.75 11.13 22.39 19.29 36.04 27.45 36.04 19.29 22.39 27.45 7.75 19.29 7.75"),s(t,"id","Laag_1"),s(t,"data-name","Laag 1"),s(t,"xmlns","http://www.w3.org/2000/svg"),s(t,"viewBox","0 0 49.33 44")},m(h,e){B(h,t,e),c(t,d),c(d,f),c(f,u),c(t,g),c(t,o),c(t,i),c(t,p)},p:m,i:m,o:m,d(h){h&&a(t)}}}class V extends x{constructor(t){super();E(this,t,null,S,w,{})}}export{V as default};

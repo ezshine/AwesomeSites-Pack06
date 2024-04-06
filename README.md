@@ -1,1 +1,6 @@
 # AwesomeSites-Pack06
+
+> collected in [AwesomeSites](https://github.com/ezshine/AwesomeSites)
+
+- www.sector32.net
+- story.sector32.net

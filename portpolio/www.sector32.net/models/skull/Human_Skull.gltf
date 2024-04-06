@@ -1,0 +1,214 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v3.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1342,
+      "max": [5.733399868011475, 0.07360000163316727, -2.8250999450683594],
+      "min": [-5.733399868011475, -8.763099670410156, -10.498000144958496],
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1342,
+      "bufferView": 0,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 1342,
+      "bufferView": 0,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 1342,
+      "bufferView": 0,
+      "byteOffset": 32
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2067,
+      "max": [7.0030999183654785, 9.538200378417969, 10.516400337219238],
+      "min": [-7.0030999183654785, -9.564599990844727, -6.583199977874756],
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2067,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2067,
+      "bufferView": 1,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2067,
+      "bufferView": 1,
+      "byteOffset": 32
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 7170,
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 10878,
+      "bufferView": 2,
+      "byteOffset": 14340
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 53680,
+      "byteStride": 40,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 53680,
+      "byteLength": 82680,
+      "byteStride": 40,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 136360,
+      "byteLength": 36096,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [{}],
+  "images": [{}],
+  "buffers": [
+    {
+      "uri": "Human_Skull.bin",
+      "byteLength": 172456
+    }
+  ],
+  "materials": [
+    {
+      "name": "human_skull"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "maxillary",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 8
+        }
+      ]
+    },
+    {
+      "name": "skull",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6,
+            "TEXCOORD_1": 7
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 9
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [1]
+    },
+    {
+      "name": "Human_Skull_$_PreRotation",
+      "rotation": [-0.707106796640857, 0, 0, 0.7071067657322379],
+      "children": [2]
+    },
+    {
+      "name": "Human_Skull_$_GeometricTranslation",
+      "translation": [0, 0, 10.507200241088867],
+      "children": [3]
+    },
+    {
+      "name": "Human_Skull",
+      "children": [4]
+    },
+    {
+      "name": "Human_Skull_$_GeometricTranslationInverse",
+      "translation": [0, 0, -10.507200241088867],
+      "children": [5, 8]
+    },
+    {
+      "name": "maxillary_$_Translation",
+      "translation": [0, -0.37600019574165344, 7.043900489807129],
+      "children": [6]
+    },
+    {
+      "name": "maxillary_$_GeometricTranslation",
+      "translation": [0, 0.38920000195503235, 3.4540998935699463],
+      "children": [7]
+    },
+    {
+      "name": "maxillary",
+      "mesh": 0
+    },
+    {
+      "name": "node",
+      "translation": [0, 0.013199806213378906, 10.498000144958496],
+      "children": [9]
+    },
+    {
+      "name": "skull",
+      "mesh": 1
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [0]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [],
+  "extensionsRequired": []
+}
