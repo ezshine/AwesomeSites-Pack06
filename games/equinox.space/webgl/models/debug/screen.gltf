@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v3.10.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1536
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 289,
+      "max": [
+        1.7798644304275513,
+        1.4139719009399414,
+        0.1241936907172203
+      ],
+      "min": [
+        -1.7876495122909546,
+        -1.4090399742126465,
+        -0.17681938409805298
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 289
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 289
+    },
+    {
+      "type": "VEC4",
+      "componentType": 5123,
+      "count": 289,
+      "normalized": true
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1829
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "screen.bin",
+      "byteLength": 1829
+    }
+  ],
+  "materials": [
+    {
+      "name": "Emissive_screen1",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1
+        ],
+        "roughnessFactor": 0.5527864098548889,
+        "metallicFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Scene.481",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3,
+            "COLOR_0": 4
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "COLOR_0": 3
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "screen",
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ]
+}

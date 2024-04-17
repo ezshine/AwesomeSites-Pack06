@@ -4,3 +4,4 @@
 
 - www.sector32.net
 - story.sector32.net
+- equinox.space

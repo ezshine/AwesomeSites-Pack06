@@ -1,0 +1,98 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v3.10.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 15120
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3185,
+      "max": [
+        1.0940748453140259,
+        0.28243187069892883,
+        1.035003423690796
+      ],
+      "min": [
+        -1.0350080728530884,
+        -1.3578526973724365,
+        -1.129947543144226
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3185
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 3185
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 15904
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "vfx_sparks.bin",
+      "byteLength": 15904
+    }
+  ],
+  "meshes": [
+    {
+      "name": "BezierCurve.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "sparks",
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ]
+}

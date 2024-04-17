@@ -1,0 +1,265 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v3.10.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 120
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 80,
+      "max": [
+        1.788144826889038,
+        0.02500000037252903,
+        1.3257383108139038
+      ],
+      "min": [
+        -1.788144826889038,
+        -0.02500000037252903,
+        -1.3257383108139038
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 80
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 80
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1065
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 557,
+      "max": [
+        1.021818995475769,
+        0,
+        1
+      ],
+      "min": [
+        -0.9953098893165588,
+        0,
+        -0.6382544636726379
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 557
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 557
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1233
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 611,
+      "max": [
+        1.1725122928619385,
+        0,
+        1
+      ],
+      "min": [
+        -1.1594617366790771,
+        0,
+        -0.6382544636726379
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 611
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 611
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 358
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 358,
+      "byteLength": 2703
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3061,
+      "byteLength": 2971
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "screen_vendingmachine.bin",
+      "byteLength": 6032
+    }
+  ],
+  "materials": [
+    {
+      "name": "UI",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1
+        ],
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Text.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 8,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Frame",
+      "mesh": 0
+    },
+    {
+      "name": "Text",
+      "translation": [
+        0.0047804927453398705,
+        0,
+        -0.20634980499744415
+      ],
+      "scale": [
+        1.1732535362243652,
+        1.039067268371582,
+        1.039067268371582
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "Text2",
+      "translation": [
+        0.0047804927453398705,
+        0,
+        -0.20634980499744415
+      ],
+      "scale": [
+        1.1732535362243652,
+        1.039067268371582,
+        1.039067268371582
+      ],
+      "mesh": 2
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ]
+}

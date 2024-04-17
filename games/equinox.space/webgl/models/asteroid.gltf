@@ -1,0 +1,104 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v3.10.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 6186
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1429,
+      "max": [
+        0.5794352293014526,
+        0.591069221496582,
+        0.9291310906410217
+      ],
+      "min": [
+        -0.6437368988990784,
+        -0.5648717880249023,
+        -0.4748125374317169
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1429
+    },
+    {
+      "type": "VEC4",
+      "componentType": 5123,
+      "count": 1429,
+      "normalized": true
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 9608
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "asteroid.bin",
+      "byteLength": 9608
+    }
+  ],
+  "meshes": [
+    {
+      "name": "output0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "COLOR_0": 3
+          },
+          "mode": 4,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "asteroid1",
+      "translation": [
+        0.03984622657299042,
+        -0.03145755082368851,
+        -0.2212514579296112
+      ],
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ]
+}

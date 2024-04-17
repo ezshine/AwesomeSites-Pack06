@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #00d0ff;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #ef7d7e;
+      }
+
+      .cls-4 {
+        fill: #ffdb4f;
+      }
+
+      .cls-5 {
+        filter: url(#outer-glow-3);
+      }
+
+      .cls-6 {
+        filter: url(#outer-glow-1);
+      }
+
+      .cls-7 {
+        filter: url(#outer-glow-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="16" x2="32" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#330d69"/>
+      <stop offset="1" stop-color="#3e548d"/>
+    </linearGradient>
+    <filter id="outer-glow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood flood-color="#00d0ff" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2"/>
+      <feFlood flood-color="#ef7d7e" flood-opacity=".5"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-3" stdDeviation="2"/>
+      <feFlood flood-color="#ffdb4f" flood-opacity=".5"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-1" width="32" height="32" rx="6" ry="6" transform="translate(32) rotate(90)"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <g class="cls-6">
+      <path class="cls-2" d="M11.36,4.84c0,5.97-4.84,10.81-10.81,10.81,5.97,0,10.81,4.84,10.81,10.81,0-5.97,4.84-10.81,10.81-10.81-5.97,0-10.81-4.84-10.81-10.81Z"/>
+    </g>
+    <g class="cls-7">
+      <path class="cls-3" d="M22.96,17.13c0,3.69-2.99,6.67-6.67,6.67,3.69,0,6.67,2.99,6.67,6.67,0-3.69,2.99-6.67,6.67-6.67-3.69,0-6.67-2.99-6.67-6.67Z"/>
+    </g>
+    <g class="cls-5">
+      <path class="cls-4" d="M22.03,2.38c0,2.95-2.39,5.33-5.33,5.33,2.95,0,5.33,2.39,5.33,5.33,0-2.95,2.39-5.33,5.33-5.33-2.95,0-5.33-2.39-5.33-5.33Z"/>
+    </g>
+  </g>
+</svg>
