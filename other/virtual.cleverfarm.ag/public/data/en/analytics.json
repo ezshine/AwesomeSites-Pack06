@@ -1,0 +1,194 @@
+{
+    "id": "analytics",
+    "title": "Clever Analytics",
+    "description": "",
+    "features": [
+        {
+            "title": "A revolutionary tool for agricultural commodities trading"
+        },
+        {
+            "title": "Overview of grown crops and yield predictions"
+        },
+        {
+            "title": "Commodity exchange trends – MATIF development, CZK/EUR, oil prices"
+        },
+        {
+            "title": "Current regional and European prices"
+        },
+        {
+            "title": "My Prices and Warehouse features – price calculation based on the warehouse postcode"
+        },
+        {
+            "title": "Bid in two clicks – quickly, reliably, and at the best price"
+        },
+        {
+            "title": "Regular weekly news from around the world which affect commodity prices"
+        }
+    ],
+    "redirectButton": {
+        "text": "More information",
+        "url": ""
+    },
+    "nextChapter": {
+        "text": "Sensors",
+        "nextChapterId": "sensors"
+    },
+    "videoGuide": {
+        "text": "Analytics",
+        "youtubeUrl": ""
+    },
+    "detailPoints": [
+        {
+            "id": "warehouse-crop",
+            "title": "Canola winters",
+            "text": "",
+            "sliderTitle": "",
+            "slides": [],
+            "moreButtonTitle": "Sell the comodity",
+            "moreButtonUrl": "",
+            "moreButtonIcon": "sell",
+            "table": {
+                "id": "assets-1",
+                "rows": [
+                    {
+                        "class": "1",
+                        "columns": [
+                            {
+                                "label": "Timeliness of data",
+                                "text": "10:36 (1 min ago)",
+                                "type": "time"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "rate-graph",
+                        "type": "graph",
+                        "columns": [
+                            {
+                                "label": "Changes",
+                                "text": "",
+                                "type": "rate-animation",
+                                "rateData": {
+                                    "unit": "USD/BUS",
+                                    "difference": 1,
+                                    "defaultValue": 4.48,
+                                    "decimalRound": 100,
+                                    "values": [
+                                        4.48,
+                                        4.38,
+                                        4.76,
+                                        4.81,
+                                        4.32,
+                                        4.30,
+                                        4.29,
+                                        4.61,
+                                        4.75,
+                                        4.8
+                                    ],
+                                    "time": []
+                                }
+                            },
+                            {
+                                "label": "Development",
+                                "text": "",
+                                "image": "/public/graphs/graph01.svg"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1",
+                        "columns": [
+                            {
+                                "label": "Actual price",
+                                "text": "4.48 USD/BUS"
+                            },
+                            {
+                                "label": "Change",
+                                "text": "0.25",
+                                "type": "rate"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "silo-crop",
+            "title": "Wheat is wintering",
+            "text": "",
+            "sliderTitle": "",
+            "slides": [],
+            "moreButtonTitle": "Sell the crop",
+            "moreButtonUrl": "",
+            "moreButtonIcon": "sell",
+            "table": {
+                "id": "assets-1",
+                "rows": [
+                    {
+                        "class": "1",
+                        "columns": [
+                            {
+                                "label": "Timeliness of data",
+                                "text": "10:36 (1 min ago)",
+                                "type": "time"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "graph",
+                        "class": "rate-graph",
+                        "columns": [
+                            {
+                                "label": "Changes",
+                                "text": "",
+                                "type": "rate-animation",
+                                "rateData": {
+                                    "unit": "EUR/MT",
+                                    "difference": 20,
+                                    "defaultValue": 214,
+                                    "decimalRound": 1,
+                                    "values": [
+                                        214,
+                                        223,
+                                        239,
+                                        235,
+                                        214,
+                                        209,
+                                        211,
+                                        210,
+                                        209,
+                                        201
+                                    ],
+                                    "time": []
+                                }
+                            },
+                            {
+                                "label": "Development",
+                                "text": "",
+                                "image": "/public/graphs/graph02.svg"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1",
+                        "columns": [
+                            {
+                                "label": "Actual price",
+                                "text": "214 EUR/MT"
+                            },
+                            {
+                                "label": "Change (feed)",
+                                "text": "0.5"
+                            },
+                            {
+                                "label": "Change (food)",
+                                "text": "-0.2",
+                                "type": "rate"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

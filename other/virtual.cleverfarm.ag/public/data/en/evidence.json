@@ -1,0 +1,450 @@
+{
+    "id": "evidence",
+    "title": "Farm management",
+    "description": "",
+    "features": [
+        {
+            "title": "Nitrates Directive monitoring"
+        },
+        {
+            "title": "Automatic recording of applications from your machines"
+        },
+        {
+            "title": "Crop plan"
+        },
+        {
+            "title": "Automatic synchronization with the land registry"
+        },
+        {
+            "title": "Reports and statistics"
+        }
+    ],
+    "redirectButton": {
+        "text": "More information",
+        "url": "https://www.cleverfarm.ag/products/farm-management"
+    },
+    "nextChapter": {
+        "text": "Clever Analytics",
+        "nextChapterId": "analytics"
+    },
+    "detailPoints": [
+        {
+            "id": "2072/1",
+            "title": "2072/1 parcel",
+            "text": "",
+            "sliderTitle": "",
+            "slides": [],
+            "moreButtonTitle": "",
+            "moreButtonUrl": "",
+            "table": {
+                "id": "2072/1-table",
+                "rows": [
+                    {
+                        "class": "category",
+                        "columns": [
+                            {
+                                "label": "General information",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1-1",
+                        "columns": [
+                            {
+                                "label": "Area:",
+                                "text": "17,865 ha"
+                            },
+                            {
+                                "label": "Avg. altitude:",
+                                "text": "418,730 m"
+                            },
+                            {
+                                "label": "Avg. slope:",
+                                "text": "1,860°"
+                            },
+                            {
+                                "label": "Limitations:",
+                                "text": "Ministry overview"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "category",
+                        "columns": [
+                            {
+                                "label": "Current crop",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1",
+                        "columns": [
+                            {
+                                "label": "Sowing date:",
+                                "text": "10.10.2023"
+                            },
+                            {
+                                "label": "Crop:",
+                                "text": "Winter wheat"
+                            },
+                            {
+                                "label": "Applied to the crop on 7/3/2024:",
+                                "text": "80 N, 30 P, 0 K"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "category",
+                        "columns": [
+                            {
+                                "label": "Activities: Sowing - Fertilizing - Spraying",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1",
+                        "columns": [
+                            {
+                                "label": "Crop:",
+                                "text": "Winter wheat"
+                            },
+                            {
+                                "label": "Total dose per parcel:",
+                                "text": "2954,9072 kg"
+                            },
+                            {
+                                "label": "Total area of activity:",
+                                "text": "17,685 h"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1",
+                        "columns": [
+                            {
+                                "label": "Variable application:",
+                                "text": "LAD 27%"
+                            },
+                            {
+                                "label": "Total dose:",
+                                "text": "3171,7902 kg"
+                            },
+                            {
+                                "label": "Total area of activity:",
+                                "text": "17,685 ha"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1",
+                        "columns": [
+                            {
+                                "label": "Evidence:",
+                                "text": "Pesticides"
+                            },
+                            {
+                                "label": "Celková dávka:",
+                                "text": "1,0381 kg"
+                            },
+                            {
+                                "label": "Total area of activity:",
+                                "text": "17,685 ha"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "category",
+                        "columns": [
+                            {
+                                "label": "Crop plan",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1",
+                        "columns": [
+                            {
+                                "label": "2024/2025:",
+                                "text": "Winter rape"
+                            },
+                            {
+                                "label": "2026/2026:",
+                                "text": "Spring barley"
+                            },
+                            {
+                                "label": "2026/2027:",
+                                "text": "Maize"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2072/2",
+            "title": "2072/2 parcel",
+            "text": "",
+            "sliderTitle": "",
+            "slides": [],
+            "moreButtonTitle": "",
+            "moreButtonUrl": "",
+            "table": {
+                "id": "2072/2-table",
+                "rows": [
+                    {
+                        "class": "category",
+                        "columns": [
+                            {
+                                "label": "General information",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1-1",
+                        "columns": [
+                            {
+                                "label": "Area:",
+                                "text": "17,865 ha"
+                            },
+                            {
+                                "label": "Avg. altitude:",
+                                "text": "418,730 m"
+                            },
+                            {
+                                "label": "Avg. slope:",
+                                "text": "1,860°"
+                            },
+                            {
+                                "label": "Limitations:",
+                                "text": "Ministry overview"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "category",
+                        "columns": [
+                            {
+                                "label": "Current crop",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1",
+                        "columns": [
+                            {
+                                "label": "Sowing date:",
+                                "text": "10.10.2023"
+                            },
+                            {
+                                "label": "Crop:",
+                                "text": "Winter wheat"
+                            },
+                            {
+                                "label": "Applied to the crop on 7/3/2024:",
+                                "text": "80 N, 30 P, 0 K"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "category",
+                        "columns": [
+                            {
+                                "label": "Activities: Sowing - Fertilizing - Spraying",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1",
+                        "columns": [
+                            {
+                                "label": "Crop:",
+                                "text": "Winter wheat "
+                            },
+                            {
+                                "label": "Total dose per parcel:",
+                                "text": "2954,9072 kg"
+                            },
+                            {
+                                "label": "Total area of activity:",
+                                "text": "17,685 h"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1",
+                        "columns": [
+                            {
+                                "label": "Variable application:",
+                                "text": "LAD 27%"
+                            },
+                            {
+                                "label": "Total dose:",
+                                "text": "3171,7902 kg"
+                            },
+                            {
+                                "label": "Total area of activity:",
+                                "text": "17,685 ha"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1",
+                        "columns": [
+                            {
+                                "label": "Records:",
+                                "text": "Pesticides"
+                            },
+                            {
+                                "label": "Total dose:",
+                                "text": "1,0381 kg"
+                            },
+                            {
+                                "label": "Total area of activity:",
+                                "text": "17,685 ha"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "category",
+                        "columns": [
+                            {
+                                "label": "Crop plan",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1",
+                        "columns": [
+                            {
+                                "label": "2024/2025:",
+                                "text": "Winter rape"
+                            },
+                            {
+                                "label": "2026/2026:",
+                                "text": "Spring barley"
+                            },
+                            {
+                                "label": "2026/2027:",
+                                "text": "Maize"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2071",
+            "title": "2071 parcel",
+            "text": "",
+            "sliderTitle": "",
+            "slides": [],
+            "moreButtonTitle": "",
+            "moreButtonUrl": "",
+            "table": {
+                "id": "2072/2-table",
+                "rows": [
+                    {
+                        "class": "category",
+                        "columns": [
+                            {
+                                "label": "General information",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1",
+                        "columns": [
+                            {
+                                "label": "Parcel type:",
+                                "text": "Permanent grassland"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1-1",
+                        "columns": [
+                            {
+                                "label": "Area:",
+                                "text": "23,685 ha"
+                            },
+                            {
+                                "label": "Avg. altitude:",
+                                "text": "418,730 m"
+                            },
+                            {
+                                "label": "Avg. slope:",
+                                "text": "1,860°"
+                            },
+                            {
+                                "label": "Limitations:",
+                                "text": "Ministry overview"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2070",
+            "title": "2070 Parcel",
+            "text": "",
+            "sliderTitle": "",
+            "slides": [],
+            "moreButtonTitle": "",
+            "moreButtonUrl": "",
+            "table": {
+                "id": "2072/2-table",
+                "rows": [
+                    {
+                        "class": "category",
+                        "columns": [
+                            {
+                                "label": "General information",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1",
+                        "columns": [
+                            {
+                                "label": "Parcel type:",
+                                "text": "Permanent grassland"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1-1",
+                        "columns": [
+                            {
+                                "label": "Area:",
+                                "text": "23,685 ha"
+                            },
+                            {
+                                "label": "Avg. altitude:",
+                                "text": "418,730 m"
+                            },
+                            {
+                                "label": "Avg. slope:",
+                                "text": "1,860°"
+                            },
+                            {
+                                "label": "Limitations:",
+                                "text": "Ministry overview"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

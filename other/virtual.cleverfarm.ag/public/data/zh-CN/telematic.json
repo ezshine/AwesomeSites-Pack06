@@ -1,0 +1,172 @@
+{
+    "id": "telematic",
+    "title": "Telematics",
+    "description": "",
+    "features": [
+        {
+            "title": "Current position of machines and historical trajectory of their movements"
+        },
+        {
+            "title": "Automatic recognition of implement, driver and machine"
+        },
+        {
+            "title": "Automatic records of completed work"
+        },
+        {
+            "title": "Identification of work on own and someone else's land"
+        },
+        {
+            "title": "Records overview for maximum user convenience and efficiency"
+        }
+    ],
+    "redirectButton": {
+        "text": "More information",
+        "url": "https://www.cleverfarm.ag/products/telematics"
+    },
+    "videoGuide": {
+        "title": "CleverFarm Telematics",
+        "youtubeUrl": "https://www.youtube.com/embed/fvDhoczGyHg?si=DkT5rMowKXRwkr5l"
+    },
+    "nextChapter": {
+        "text": "Precision agriculture",
+        "nextChapterId": "agriculture"
+    },
+    "detailPoints": [
+        {
+            "id": "tractor-work",
+            "title": "Data about work in progress",
+            "text": "",
+            "sliderTitle": "",
+            "slides": [],
+            "moreButtonTitle": "",
+            "moreButtonUrl": "",
+            "table": {
+                "id": "vehicle-info",
+                "rows": [
+                    {
+                        "class": "1-1",
+                        "columns": [
+                            {
+                                "label": "Machine",
+                                "text": "Combine harvester Fendt IDEAL"
+                            },
+                            {
+                                "label": "Operation",
+                                "text": "Combine harvester"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1",
+                        "columns": [
+                            {
+                                "label": "Task date",
+                                "text": "18/07/2023 09:34 - 18/07/2023 10:29"
+                            },
+                            {
+                                "label": "Task duration",
+                                "text": "55 min"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1",
+                        "columns": [
+                            {
+                                "label": "Area",
+                                "text": "4,15 ha"
+                            },
+                            {
+                                "label": "Parcel",
+                                "text": "6807/7 Loděnice"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1",
+                        "columns": [
+                            {
+                                "label": "Crop",
+                                "text": "Winter wheat"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "tractor-trail",
+            "title": "Machine and implement data",
+            "text": "",
+            "sliderTitle": "",
+            "slides": [],
+            "moreButtonTitle": "",
+            "moreButtonUrl": "",
+            "table": {
+                "id": "trail-info",
+                "rows": [
+                    {
+                        "class": "1-1",
+                        "columns": [
+                            {
+                                "label": "Machine",
+                                "text": "Combine harvester Fendt IDEAL"
+                            },
+                            {
+                                "label": "Operation",
+                                "text": "Combine harvester"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1-1",
+                        "columns": [
+                            {
+                                "label": "Machine width",
+                                "text": " 7m"
+                            },
+                            {
+                                "label": "Fuel consumption",
+                                "text": "17 l/ha"
+                            },
+                            {
+                                "label": "Speed",
+                                "text": "8 km/h"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1-1",
+                        "columns": [
+                            {
+                                "label": "Engine RPM",
+                                "text": "X"
+                            },
+                            {
+                                "label": "Fluid temperature",
+                                "text": "X"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "1",
+                        "columns": [
+                            {
+                                "label": "Altitude",
+                                "text": "X"
+                            },
+                            {
+                                "label": "Tilt",
+                                "text": "X"
+                            },
+                            {
+                                "label": "Distance travelled",
+                                "text": "X"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

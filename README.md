@@ -6,3 +6,4 @@
 - story.sector32.net
 - equinox.space
 - www.classics-garage.com
+- virtual.cleverfarm.ag

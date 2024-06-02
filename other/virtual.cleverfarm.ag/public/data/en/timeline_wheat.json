@@ -1,0 +1,250 @@
+{
+    "category": "wheat",
+    "title": "Winter wheat",
+    "months": [
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August"
+    ],
+    "monthOffset": 7,
+    "slides": [
+        {
+            "id": "sklizen",
+            "title": "Harvest",
+            "calendarPositionStart": "8-0",
+            "calendarPositionEnd": "9-0",
+            "calendarYear": 0,
+            "text": "We begin with the harvest to demonstrate how we work with yield data, which can be crucial for decision-making for the next season.",
+            "voiceover": "To guide you through the process of precision agriculture, we begin with the harvest. This is to show how we handle yield data, which can be essential for future actions, such as variable rate seeding. We interpret cleaned and calibrated yield maps from various harvester brands on a single field.",
+            "audio": "/public/audio/VF-srpen.mp3",
+            "audioDuration": 25,
+            "subSlides": [
+                {
+                    "subSlideId": "1",
+                    "title": "Harvest",
+                    "slideDuration": 5,
+                    "text": ""
+                },
+                {
+                    "subSlideId": "2",
+                    "title": "Yield maps",
+                    "slideDuration": 15,
+                    "text": "We clean and calibrate the yield maps - interpreting data from various harvester brands on one parcel."
+                },
+                {
+                    "subSlideId": "3",
+                    "title": "Upload into the application",
+                    "slideDuration": 5,
+                    "text": "Then we upload the maps into the CleverFarm application. Based on these maps, you can generate prescription maps, for instance, for variable rate seeding."
+                }
+            ]
+        },
+        {
+            "id": "analyza-pudy",
+            "title": "Soil Analysis / Basic Fertilization",
+            "calendarPositionStart": "9-0",
+            "calendarPositionEnd": "11-0",
+            "calendarYear": 0,
+            "text": "Variable basic fertilization for winter wheat based on soil samples where we analyze your selected micro and macronutrients.",
+            "voiceover": "Additionally, we apply basic fertilization variably based on soil and leaf analyses. Soil samples are collected in your chosen grid, and in the ALS laboratory, we analyze pH, phosphorus, potassium, magnesium, calcium, potassium to magnesium ratio, sulfur, iron, and zinc content. For phosphorus fertilization, we used a phosphorus supply map and carried out variable fertilization in September based on these data.",
+            "audio": "/public/audio/VF-zari-rijen.mp3",
+            "audioDuration": 38,
+            "subSlides": [
+                {
+                    "subSlideId": "1",
+                    "title": "Soil Samples Collecting",
+                    "slideDuration": 10,
+                    "text": "According to client requirements, we develop a regular or irregular grid considering the variability of management zones. The grid density is determined by the client, with one sample per 3ha being the most commonly used density. In the example, we work with soil samples for phosphorus."
+                },
+                {
+                    "subSlideId": "2",
+                    "title": "Uploading Data to the Machine",
+                    "slideDuration": 5,
+                    "text": "The selected prescription maps can be easily sent to the machine remotely or uploaded using a USB stick."
+                },
+                {
+                    "subSlideId": "3",
+                    "slideDuration": 12,
+                    "title": "Variable Basic Fertilization",
+                    "text": "For variable application of autumn fertilization, we utilize the underlying map of soil samples, specifically the phosphorus levels map. The machine will now apply the fertilizer according to the specified prescription map."
+                }
+            ]
+        },
+        {
+            "id": "rustovy-potencial",
+            "title": "Management Zones / Variable Rate Seeding",
+            "calendarPositionStart": "10-0",
+            "calendarPositionEnd": "12-0",
+            "calendarYear": 0,
+            "text": "Variable rate seeding of winter wheat utilizes management zones based on historical data or aggregated yield maps.",
+            "voiceover": "For variable seeding of winter wheat, we utilize management zones based on historical data or aggregated yield maps.",
+            "audio": "/public/audio/VF-rijen-listopad.mp3",
+            "audioDuration": 10,
+            "subSlides": [
+                {
+                    "subSlideId": "1",
+                    "title": "Evaluation of Management Zones",
+                    "slideDuration": 3,
+                    "text": "Based on historical data from the Sentinel 2 satellite, we determine the historical growth potential and create management zones."
+                },
+                {
+                    "subSlideId": "2",
+                    "title": "Uploading Data to the Machine",
+                    "slideDuration": 3,
+                    "text": "The selected prescription map can be easily sent to the machine remotely or uploaded using a USB stick."
+                },
+                {
+                    "subSlideId": "3",
+                    "title": "Variable Rate Seeding",
+                    "slideDuration": 3,
+                    "text": "For variable rate seeding, we will use a management zone map based on historical data specific to the parcel. The machine will then apply the fertilizer according to the prescription map."
+                }
+            ]
+        },
+        {
+            "id": "evidence-pudy",
+            "title": "Land lease contracts and land management",
+            "calendarPositionStart": "1-0",
+            "calendarPositionEnd": "2-0",
+            "calendarYear": 0,
+            "text": "During the winter, you file your tax returns in the CleverAssets application. In this program, you receive and send land lease contracts and you track changes in the cadastre, among other features. For instance, the addendum feature monitors all land lease contracts.",
+            "voiceover": "During the winter, when you can take a rest from agronomic activities, you file your tax returns. The CleverAssets application guides you through the comprehensive process of land lease contract and land management. It helps with receiving and sending contracts, tracking changes, or there is the addendum feature, which monitors all land lease contracts in the cadastre... and much more",
+            "audio": "",
+            "subSlides": [],
+            "audioDuration": 25
+        },
+        {
+            "id": "regeneracni-hnojeni",
+            "title": "Current Crop Monitoring / Regenerative Fertilization",
+            "calendarPositionStart": "2-2",
+            "calendarPositionEnd": "3-0",
+            "calendarYear": 0,
+            "text": "Variable regenerative fertilization of winter wheat utilizing a biomass volume map.",
+            "voiceover": "And we're back in the fields. In mid-February, if the weather allows it, we will begin with regenerative fertilization. This time, we will use a biomass volume map generated from the current crop monitoring. We have access to maps displaying chlorophyll content, biomass volume, or leaf water content. We can choose, for example, a map of biomass volume.",
+            "audio": "/public/audio/VF-unor.mp3",
+            "audioDuration": 30,
+            "subSlides": [
+                {
+                    "subSlideId": "1",
+                    "title": "Current Crop Monitoring",
+                    "slideDuration": 20,
+                    "text": "We monitor the current chlorophyll content, biomass volume, and leaf water content based on the CleverFarm global crop model. For regenerative fertilization, we select the biomass volume map."
+                },
+                {
+                    "subSlideId": "2",
+                    "title": "Uploading Data to the Machine",
+                    "slideDuration": 5,
+                    "text": "The selected prescription map can be easily sent to the machine remotely or uploaded using a USB disk."
+                },
+                {
+                    "subSlideId": "3",
+                    "title": "Variable Fertilization",
+                    "slideDuration": 5,
+                    "text": "The machine now applies fertilizer according to the specified prescription map, which is based on the biomass content."
+                }
+            ]
+        },
+        {
+            "id": "produkcni-hnojeni",
+            "title": "Current Crop Monitoring / In-Season Fertilization",
+            "calendarPositionStart": "3-0",
+            "calendarPositionEnd": "5-0",
+            "calendarYear": 0,
+            "text": "Variable mid-season fertilization of winter wheat utilizing a chlorophyll content map as a basis.",
+            "voiceover": "We continue with mid-season fertilization from March to April and decide whether to use a chlorophyll content map or a biomass volume map. This time, we have selected a chlorophyll content map as our basis. With the same underlying map, we can also potentially utilize it for qualitative fertilization as needed.",
+            "audio": "/public/audio/VF-brezen-duben.mp3",
+            "audioDuration": 21,
+            "subSlides": [
+                {
+                    "subSlideId": "1",
+                    "title": "Current Crop Monitoring",
+                    "slideDuration": 7,
+                    "text": "We monitor the current chlorophyll content, biomass volume, and water quantity in the crop based on our developed global crop model. This time, we will use a chlorophyll content map as our basis."
+                },
+                {
+                    "subSlideId": "2",
+                    "title": "Uploading Data to the Machine",
+                    "slideDuration": 7,
+                    "text": "The selected prescription map can be easily sent to the machine remotely or uploaded using a USB stick."
+                },
+                {
+                    "subSlideId": "3",
+                    "title": "Variable Fertilization",
+                    "slideDuration": 7,
+                    "text": "The machine now applies fertilizer according to the specified prescription map, which is based on the chlorophyll content."
+                }
+            ]
+        },
+        {
+            "id": "aplikace-postriku",
+            "title": "Application of Pesticides ",
+            "calendarPositionStart": "4-0",
+            "calendarPositionEnd": "5-0",
+            "calendarYear": 0,
+            "text": "Application of pesticides based on drone data and application of plant growth regulators using relevant base data from crop monitoring.",
+            "voiceover": "Next, we proceed with the application of pesticides and plant growth regulators during the growing season, utilizing relevant base data from current crop monitoring.",
+            "audio": "/public/audio/VF-duben.mp3",
+            "audioDuration": 12,
+            "subSlides": []
+        },
+        {
+            "id": "regeneracni-hnojeni-kveten",
+            "title": "Land lease contracts and land management",
+            "calendarPositionStart": "5-0",
+            "calendarPositionEnd": "6-0",
+            "calendarYear": 0,
+            "text": "During April and May, we will briefly return to the CleverAssets application to prepare documentation for subsidies. We focus on land exchanges between agricultural enterprises - the application monitors exchanges based on data layers from the real estate cadastre and land registry. CleverAssets tool is currently available for the Czech Republic.",
+            "voiceover": "During April and May, we will briefly return to the CleverAssets application to prepare documentation for subsidies. We focus on land exchanges between agricultural enterprises - the application monitors exchanges based on data layers from the real estate cadastre and land registry. CleverAssets tool is currently available for the Czech Republic.",
+            "audio": "",
+            "audioDuration": 18,
+            "subSlides": []
+        },
+        {
+            "id": "vyhodnoceni-sezony",
+            "title": "Season Evaluation",
+            "calendarPositionStart": "7-2",
+            "calendarPositionEnd": "9-0",
+            "calendarYear": 1,
+            "text": "Evaluation of precision agriculture includes meteorological conditions, economic impacts, yield, nutrient balance, and nitrogen utilization at the parcel/zone level, along with recommendations for appropriate steps for the following season. This information can be used as base material for generating prescription maps.",
+            "voiceover": "We are now approaching the conclusion of the production season, and our goal is to provide you with an evaluation of the precision farming. The most relevant aspect is the partial factor productivity (PFP) index. This index provides information on the amount of yield (in kilograms) generated by the application of one kilogram of nitrogen. Generally, the higher the PFP value is, the higher the efficiency of nitrogen fertilization. For winter wheat, optimal PFP values should reach at least 40.",
+            "audio": "/public/audio/VF-cervenec-srpen.mp3",
+            "audioDuration": 38,
+            "subSlides": [
+                {
+                    "subSlideId": "1",
+                    "title": "Harvest",
+                    "slideDuration": 20,
+                    "text": "Thanks to our unique method of processing yield maps from combine harvesters, you will learn about the precise economic impacts of your operations on every piece of field."
+                },
+                {
+                    "subSlideId": "2",
+                    "title": "Yield map (t/ha)",
+                    "slideDuration": 13,
+                    "text": "The CleverFarm platform will clean and calibrate yield maps from combine harvesters of various brands on a single field."
+                },
+                {
+                    "subSlideId": "3",
+                    "title": "Supply of N (kg/ha)",
+                    "slideDuration": 5,
+                    "text": "We evaluate the partial factor productivity index, which provides information on the amount of yield (in kilograms) generated by the application of one kilogram of nitrogen."
+                },
+                {
+                    "subSlideId": "4",
+                    "title": "Yield / Supply of N (kg/ha)",
+                    "slideDuration": 5,
+                    "text": "We evaluate the partial factor productivity index, which provides information on the amount of yield (in kilograms) generated by the application of one kilogram of nitrogen."
+                }
+            ]
+        }
+    ]
+}

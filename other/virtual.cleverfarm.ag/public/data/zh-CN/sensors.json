@@ -1,0 +1,169 @@
+{
+    "id": "sensors",
+    "title": "IoT Sensors",
+    "description": "",
+    "features": [
+        {
+            "title": "A wide range of IoT sensors precisely adapted to your needs"
+        },
+        {
+            "title": "Intelligent irrigation systems for optimal use of water resources"
+        },
+        {
+            "title": "Clear overview of records in the application"
+        },
+        {
+            "title": "Individual setting of e-mail notifications and text messages"
+        },
+        {
+            "title": "A wireless and energy-saving solution, eliminating the need for cabling and dependence on the electrical grid"
+        },
+        {
+            "title": "Pest and disease prediction"
+        }
+    ],
+    "redirectButton": {
+        "text": "More information",
+        "url": "https://www.cleverfarm.ag/products/sensors"
+    },
+    "nextChapter": {
+        "text": "Telematics",
+        "nextChapterId": "telematic"
+    },
+    "videoGuide": {
+        "text": "IoT Sensors",
+        "youtubeUrl": "https://www.youtube.com/embed/bBUI3wWIbSM?si=phc4iIDLQ-ST6Z8z"
+    },
+    "detailPoints": [
+        {
+            "id": "meteostation",
+            "title": "Weather station",
+            "text": "The high-quality wireless weather station will provide meteorological data with accuracy according to World Meteorological Organization (WMO) standards.",
+            "slider": {
+                "title": "Measured data",
+                "itemShown": 1,
+                "slides": [
+                    {
+                        "id": "1",
+                        "title": "Temperature (°C)",
+                        "imageUrl": "public/icons/teplota.svg"
+                    },
+                    {
+                        "id": "2",
+                        "title": "Humidity (%)",
+                        "imageUrl": "public/icons/vlhkost.svg"
+                    },
+                    {
+                        "id": "3",
+                        "title": "Rainfall (mm)",
+                        "imageUrl": "public/icons/srazky.svg"
+                    },
+                    {
+                        "id": "4",
+                        "title": "Wind (m/s)",
+                        "imageUrl": "public/icons/vitr.svg"
+                    },
+                    {
+                        "id": "5",
+                        "title": "Leaf moisture",
+                        "imageUrl": "public/icons/ovlhceni-list.svg"
+                    },
+                    {
+                        "id": "6",
+                        "title": "Pest and disease prediction",
+                        "imageUrl": "public/icons/predikce-skudcu-a-chorob.svg"
+                    },
+                    {
+                        "id": "6",
+                        "title": "Evapotranspiration (mm)",
+                        "imageUrl": "public/icons/evapotranspirace.svg"
+                    }
+                ]
+            },
+            "moreButtonTitle": "More about IoT sensors",
+            "moreButtonUrl": "https://www.cleverfarm.ag/cs/produkty/senzory"
+        },
+        {
+            "id": "field-sensor",
+            "title": "Soil sensor",
+            "text": "At CleverFarm, we offer several types of soil sensors (Salinity, Volumetric, Absorb) that provide farmers with complete information about soil conditions in real time. This information helps them maximize yields while minimizing water and fertilizer use.",
+            "sliderTitle": "",
+            "slider": {
+                "title": "",
+                "itemShown": 1,
+                "slides": [
+                    {
+                        "id": "1",
+                        "title": "Soil temperature (°C)",
+                        "imageUrl": "public/icons/teplota.svg"
+                    },
+                    {
+                        "id": "2",
+                        "title": "Soil moisture (%)",
+                        "imageUrl": "public/icons/vlhkost.svg"
+                    },
+                    {
+                        "id": "3",
+                        "title": "Electrical conductivity",
+                        "imageUrl": "public/icons/elektrick-konduktivita-vodivost.svg"
+                    },
+                    {
+                        "id": "4",
+                        "title": "Soil water potential",
+                        "imageUrl": "public/icons/vodni-potencial pudy.svg"
+                    }
+                ]
+            },
+            "moreButtonTitle": "More about IoT sensors",
+            "moreButtonUrl": "https://www.cleverfarm.ag/cs/produkty/senzory"
+        },
+        {
+            "id": "silo-sensor",
+            "title": "Silo sensor",
+            "text": "We manufacture sensors for agricultural commodities stored in silos in different lengths depending on the size of the silo, up to a length of 25 meters. It measures the temperature in 7 or 10 evenly spaced segments (depending on the size of the silo).",
+            "sliderTitle": "",
+            "slider": {
+                "title": "",
+                "itemShown": 1,
+                "slides": [
+                    {
+                        "id": "1",
+                        "title": "Upper temperature (°C)",
+                        "imageUrl": "public/icons/teplota.svg"
+                    },
+                    {
+                        "id": "2",
+                        "title": "Bottom temperature (°C)",
+                        "imageUrl": "public/icons/teplota.svg"
+                    }
+                ]
+            },
+            "moreButtonTitle": "More about IoT sensors",
+            "moreButtonUrl": "https://www.cleverfarm.ag/cs/produkty/senzory"
+        },
+        {
+            "id": "warehouse-sensor",
+            "title": "Post-harvest sensor",
+            "text": "Post-harvest sensors are used to detect potential problems with stored material in time. The 3 m long bar sensor is equipped with five sensors for measuring the temperature in the profile of the stored grain in the halls. The sensor notifies the farmer of increased or decreased temperature via e-mail or text message.",
+            "sliderTitle": "",
+            "slider": {
+                "title": "",
+                "itemShown": 1,
+                "slides": [
+                    {
+                        "id": "1",
+                        "title": "Upper temperature (°C)",
+                        "imageUrl": "public/icons/teplota.svg"
+                    },
+                    {
+                        "id": "2",
+                        "title": "Bottom temperature (°C)",
+                        "imageUrl": "public/icons/teplota.svg"
+                    }
+                ]
+            },
+            "moreButtonTitle": "More about IoT sensors",
+            "moreButtonUrl": "https://www.cleverfarm.ag/cs/produkty/senzory"
+        }
+    ]
+}

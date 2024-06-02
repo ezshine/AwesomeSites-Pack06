@@ -1,0 +1,61 @@
+{
+    "id": "assets",
+    "title": "Cleverassets",
+    "description": "",
+    "features": [
+        {
+            "title": "Finally, a tool for easy land lease contract and land management"
+        },
+        {
+            "title": "Accurate information about parcels, owners, and contracts"
+        },
+        {
+            "title": "The application monitors expiring land lease contracts and rental agreements for you"
+        },
+        {
+            "title": "Display of land from both owner's and farmer's perspective"
+        },
+        {
+            "title": "Automation of administrative processes, including payment orders and tax declaration generation"
+        },
+        {
+            "title": "Connection with the real estate cadastre and display of land registry (LPIS) blocks"
+        },
+        {
+            "title": "CleverAssets tool is currently available for the Czech Republic"
+        }
+    ],
+    "redirectButton": {
+        "text": "More information",
+        "url": ""
+    },
+    "nextChapter": {
+        "text": "Clever analytics",
+        "nextChapterId": "analytics"
+    },
+    "videoGuide": {
+        "text": "",
+        "youtubeUrl": ""
+    },
+    "sideWindow": {
+        "type": "checkboxes",
+        "title": "Map view",
+        "items": [
+            {
+                "text": "Own land blocks",
+                "id": "0",
+                "color": "#00A179"
+            },
+            {
+                "text": "Other land users",
+                "id": "1",
+                "color": "#EBA607"
+            },
+            {
+                "text": "Land barter",
+                "id": "2",
+                "color": "#848484"
+            }
+        ]
+    }
+}

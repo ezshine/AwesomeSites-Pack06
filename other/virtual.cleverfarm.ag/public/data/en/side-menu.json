@@ -1,0 +1,18 @@
+{
+    "sideMenu": [
+        {
+            "pageId": "about-us",
+            "headerBackground": "/public/images/side-menu/cleverfarm-header_about-us.png",
+            "pageTitle": "About us",
+            "pageHeader": "Imagine the farm of the future, where innovation and technology shape the new reality of agriculture. Welcome to the CleverFarm virtual farm.",
+            "pageText": "<p>We are a Czech technology company that has been providing innovative answers to important challenges in agriculture since 2016. Our virtual farm allows you to overview all our products and services through an interactive 3D environment.</p><p>We provide automated, cost-effective and sustainable farming methods that help our clients achieve the desired results. We monitor and analyze a wide range of data to offer optimal solutions that lead to increased efficiency and sustainability. A key element of our approach is the synergy between this data and agricultural machinery, thanks to which we achieve maximum efficiency in the use of resources and optimization of processes in the field. Our operations began on the Czech market, but our ambitions extend much further. The CleverFarm solution is already used by clients in several countries, from small family farms to large agro-companies.</p> <p>Come with us on an exciting journey to the future of modern agriculture.</p><p>Thanks for the implementation of our virtual farm belongs to  <a href=\"mailto:michalscuglik@gmail.com\">Michal Ščuglík</a> and <a class=\"u__text-link\" target=\"_blank\" href=\"https://www.gubrica.com\">Adrián Gubrica</a>.<p/>"
+        },
+        {
+            "pageId": "contact",
+            "headerBackground": "/public/images/side-menu/cleverfarm-header_contact.png",
+            "pageTitle": "Contact",
+            "pageHeader": "Are you interested in further information or cooperation? Leave us a message and we'll get back to you.",
+            "pageText": "<a class=\"side-menu__large-mail\" href='mailto:info@cleverfarm.cz'>info@cleverfarm.cz</a><p>CleverFarm, a.s. <br>Vídenská 188/119d, <br>619 00 Brno. <br>ID: 05215480 <br>TIN: CZ05215480</p>"
+        }
+    ]
+}

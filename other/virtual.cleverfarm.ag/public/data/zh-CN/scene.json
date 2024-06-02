@@ -1,0 +1,193 @@
+{
+    "tables": [
+        {
+            "id": "curent-job",
+            "title": "Current work",
+            "rows": [
+                {
+                    "class": "1-1",
+                    "columns": [
+                        {
+                            "label": "Driver",
+                            "text": "Ján Novotný"
+                        },
+                        {
+                            "label": "Operation",
+                            "text": "Combine harvester"
+                        }
+                    ]
+                },
+                {
+                    "class": "1-1",
+                    "columns": [
+                        {
+                            "label": "Machine width",
+                            "text": " 7m"
+                        },
+                        {
+                            "label": "Consumption",
+                            "text": "17 l/ha"
+                        },
+                        {
+                            "label": "Speed",
+                            "text": "<span>8</span><span>km/h</span>",
+                            "type": "change-animation"
+                        }
+                    ]
+                },
+                {
+                    "class": "1",
+                    "columns": [
+                        {
+                            "label": "Altitude",
+                            "text": "203,98"
+                        },
+                        {
+                            "label": "Slope",
+                            "text": "3,740°"
+                        },
+                        {
+                            "label": "Distance travelled",
+                            "text": "3,450m"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "curent-weather",
+            "title": "Weather",
+            "rows": [
+                {
+                    "type": "graph",
+                    "class": "value-graph",
+                    "columns": [
+                        {
+                            "label": "Temperature",
+                            "text": "<span>25.4</span><span>°C</span>",
+                            "type": "change-animation"
+                        },
+                        {
+                            "label": "",
+                            "text": "",
+                            "image": "/public/graphs/graph01.svg"
+                        }
+                    ]
+                },
+                {
+                    "type": "graph",
+                    "class": "value-graph",
+                    "columns": [
+                        {
+                            "label": "Humidity",
+                            "text": "<span>25.4</span><span>%</span>",
+                            "type": "change-animation"
+                        },
+                        {
+                            "label": "",
+                            "text": "",
+                            "image": "/public/graphs/graph02.svg"
+                        }
+                    ]
+                },
+                {
+                    "type": "graph",
+                    "class": "value-graph",
+                    "columns": [
+                        {
+                            "label": "Rainfall",
+                            "text": "<span>25.4</span><span>°C</span>",
+                            "type": "change-animation"
+                        },
+                        {
+                            "label": "",
+                            "text": "",
+                            "image": "/public/graphs/graph03.svg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "storing",
+            "title": "Storage",
+            "rows": [
+                {
+                    "type": "category",
+                    "class": "category",
+                    "columns": [
+                        {
+                            "label": "Silo",
+                            "text": "",
+                            "type": ""
+                        }
+                    ]
+                },
+                {
+                    "type": "default",
+                    "class": "1-1-1",
+                    "columns": [
+                        {
+                            "label": "Silo 1",
+                            "text": "31,2 °C"
+                        },
+                        {
+                            "label": "Silo 2",
+                            "text": "33,1 °C"
+                        },
+                        {
+                            "label": "Silo 3",
+                            "text": "30,9 °C "
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
+                    "class": "category",
+                    "columns": [
+                        {
+                            "label": "Warehouses",
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "type": "default",
+                    "class": "1-1-1",
+                    "columns": [
+                        {
+                            "label": "Warehouse 1",
+                            "text": "31,2 °C"
+                        },
+                        {
+                            "label": "Warehouse 2",
+                            "text": "33,1 °C"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "tips": [
+        {
+            "id": 1,
+            "text": "We will provide you with an evaluation of the economic efficiency of variable applications."
+        },
+        {
+            "id": 2,
+            "text": "We use a wide range of data for the best possible evaluation of variable zones."
+        },
+        {
+            "id": 3,
+            "text": "We automatically record machine data including work done, fuel consumption, elevation, engine speed and much more..."
+        },
+        {
+            "id": 4,
+            "text": "According to our customers, we have the fastest display of telematics data."
+        },
+        {
+            "id": 5,
+            "text": "We will also calculate the carbon footprint on the farm, provide you with up-to-date and unique information on commodity prices, and streamline the registration of land and lease contracts."
+        }
+    ]
+}

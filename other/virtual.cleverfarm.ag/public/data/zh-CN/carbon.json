@@ -1,0 +1,58 @@
+{
+    "id": "carbon",
+    "title": "Clever Carbon",
+    "description": "",
+    "features": [
+        {
+            "title": "We carry out a complete analysis of emissions on the farm according to the GHG protocol"
+        },
+        {
+            "title": "We prepare an overview of all greenhouse gases on your farm, including methane and nitrous oxide"
+        },
+        {
+            "title": "We propose specific measures for decarbonisation, i.e. reducing the emissions of greenhouse gases"
+        },
+        {
+            "title": "We evaluate the impact of the proposed measures within Scope 1, 2 and 3"
+        },
+        {
+            "title": "We recommend other necessary steps for better sustainability of your business"
+        },
+        {
+            "title": "CleverCarbon tool is currently available for the Czech Republic"
+        }
+    ],
+    "redirectButton": {
+        "text": "More information",
+        "url": "http://www.clevercarbon.ag"
+    },
+    "nextChapter": {
+        "text": "Farm Management",
+        "nextChapterId": "evidence"
+    },
+    "sideWindow": {
+        "type": "chart",
+        "title": "Carbon footprint scopes",
+        "items": [
+            {
+                "text": "Scope 1<br/>Direct emissions",
+                "id": "scope1",
+                "color": "#00A179",
+                "value": "16 192 390,26<br>kgCO2eq"
+            },
+            {
+                "text": "Scope 3<br/>Indirect emissions",
+                "id": "scope2",
+                "color": "#ffffff",
+                "value": "3 343 215,82<br>kgCO2eq"
+            },
+            {
+                "text": "Scope 2<br/>Energy and heat",
+                "id": "scope3",
+                "color": "#EBA607",
+                "value": "9 050 516,50<br>kgCO2eq"
+            }
+        ],
+        "chart": "carbon"
+    }
+}
