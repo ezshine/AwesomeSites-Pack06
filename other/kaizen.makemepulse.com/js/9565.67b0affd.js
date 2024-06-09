@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkgl_starter"]=self["webpackChunkgl_starter"]||[]).push([[9565],{59565:function(t,a,e){async function n(t){const a=(await e.e(9650).then(e.bind(e,39650))).default;if(a.isIOS)try{await t.play()}catch(n){if("NotAllowedError"===n.name)return!0}finally{t=null}return!1}e.r(a),a["default"]=n}}]);
+//# sourceMappingURL=9565.67b0affd.js.map

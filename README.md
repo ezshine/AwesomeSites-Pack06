@@ -7,3 +7,4 @@
 - equinox.space
 - www.classics-garage.com
 - virtual.cleverfarm.ag
+- kaizen.makemepulse.com

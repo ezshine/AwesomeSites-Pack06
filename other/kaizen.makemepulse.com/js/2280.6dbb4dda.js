@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkgl_starter"]=self["webpackChunkgl_starter"]||[]).push([[2280],{62280:function(e,t,a){a.r(t),a.d(t,{default:function(){return c}});var n=a(46381),s=a(39400);const r="kaizen";class c{constructor(){this.sequenceDebugEnabled=!1,this.project=(0,n.getProject)(r,{state:s})}getStudio(){a.e(2654).then(a.t.bind(a,12654,23)).then((e=>{const t=gui.folder("Theatre");t.add(this,"sequenceDebugEnabled"),e.default.initialize()}))}async load(){await this.project.ready}}}}]);
+//# sourceMappingURL=2280.6dbb4dda.js.map
