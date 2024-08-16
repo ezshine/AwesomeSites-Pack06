@@ -9,3 +9,4 @@
 - virtual.cleverfarm.ag
 - kaizen.makemepulse.com
 - svg.designcode.io
+- bidsforsurvival.com
