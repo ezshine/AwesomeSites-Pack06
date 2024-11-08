@@ -10,3 +10,6 @@
 - kaizen.makemepulse.com
 - svg.designcode.io
 - bidsforsurvival.com
+- www.hatom.com
+- www.rspca.org.uk
+- beat.noomoagency.com
