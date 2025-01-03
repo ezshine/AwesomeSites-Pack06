@@ -1,0 +1,1 @@
+import{ae as a,af as i,u as p,ag as e}from"./BNj6qnUa.js";const o=a({header:{availability:"Available starting Feb 2025"}}),t={nuxt:{}},f=i(o,t);function g(){const n=p();return n._appConfig||(n._appConfig=e(f)),n._appConfig}export{g as u};

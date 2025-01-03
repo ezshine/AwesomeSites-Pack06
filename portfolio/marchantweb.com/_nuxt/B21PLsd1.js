@@ -1,0 +1,1 @@
+import{u as t}from"./CGa80CBI.js";import{d as r,c,e as m,ah as p,n as i,G as l,H as u}from"./BNj6qnUa.js";const _=r({__name:"CellContainer",props:{cell:{},class:{}},setup(a){const e=a,{cellClasses:n,cellStyles:o}=t(e.cell);return(s,f)=>(c(),m("div",{key:s.cell,class:i(["container",l(n),e.class]),style:u(l(o))},[p(s.$slots,"default")],6))}});export{_};
