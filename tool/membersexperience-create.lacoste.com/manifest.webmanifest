@@ -1,0 +1,23 @@
+{
+	"short_name": "Lacoste - Members Experience",
+	"name": "Lacoste - Members Experience",
+	"description": "Co-creation editor",
+	"start_url": "/",
+	"background_color": "#000000",
+	"theme_color": "#000000",
+	"orientation": "portrait",
+	"icons": [
+		{
+			"src": "/icons/icon_192.png?v=7bf859a9",
+			"type": "image/png",
+			"sizes": "192x192",
+			"purpose": "maskable"
+		},
+		{
+			"src": "/icons/icon_512.png?v=7bf859a9",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"display": "fullscreen"
+}

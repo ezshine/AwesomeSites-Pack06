@@ -15,3 +15,4 @@
 - beat.noomoagency.com
 - www.utsubo.com
 - marchantweb.com
+- membersexperience-create.lacoste.com
