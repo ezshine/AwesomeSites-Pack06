@@ -17,3 +17,4 @@
 - marchantweb.com
 - membersexperience-create.lacoste.com
 - pinball.cosmicshelter.com
+- labs.otherlife.xyz
