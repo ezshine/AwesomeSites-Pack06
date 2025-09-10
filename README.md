@@ -19,3 +19,4 @@
 - pinball.cosmicshelter.com
 - labs.otherlife.xyz
 - orion.adrianred.com
+- samsy.ninja
