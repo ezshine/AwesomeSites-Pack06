@@ -1,0 +1,22 @@
+{
+	"short_name": "MSI - The Egg Hunt",
+	"name": "MSI - The Egg Hunt",
+	"description": "Earn MSI Reward Points and win the Grand Raffle.",
+	"start_url": "/",
+	"background_color": "#000000",
+	"theme_color": "#000000",
+	"orientation": "portrait",
+	"icons": [
+		{
+			"src": "/icons/icon_192.png?v=9dab3821",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/icons/icon_512.png?v=9dab3821",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"display": "fullscreen"
+}

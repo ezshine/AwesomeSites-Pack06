@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Punk</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="world">
+        <div class="level-cell"><div class="level-preview" id="preview-0-0"></div></div>
+        <div class="level-cell"><div class="level-preview" id="preview-0-1"></div></div>
+        <div class="level-cell"><div class="level-preview" id="preview-0-2"></div></div>
+        <div class="level-cell"><div class="level-preview" id="preview-1-0"></div></div>
+        <div class="level-cell" id="current-level-cell">
+            <div class="game-container">
+                <canvas id="gameCanvas"></canvas>
+               <canvas id="shaderCanvas"></canvas>
+                <div id="startScreen">
+                    <div class="start-button">START GAME</div>
+                    <div class="copyright">© 2025 Adrian Red</div>
+                </div>
+            </div>
+        </div>
+        <div class="level-cell"><div class="level-preview" id="preview-1-2"></div></div>
+        <div class="level-cell"><div class="level-preview" id="preview-2-0"></div></div>
+        <div class="level-cell"><div class="level-preview" id="preview-2-1"></div></div>
+        <div class="level-cell"><div class="level-preview" id="preview-2-2"></div></div>
+    </div>
+    <div id="gameOverScreen" class="hidden">
+        <h2>GAME OVER </h2>
+        <button id="restartButton">Play Again</button>
+    </div>
+    <div id="top-ui-container" class="hidden">
+        <div id="levelInfo">LEVEL <span id="currentLevel">1</span></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nipplejs/0.10.1/nipplejs.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/gameObjects.js"></script>
+    <script src="js/levels.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/shader.js"></script>
+</body>
+</html> 

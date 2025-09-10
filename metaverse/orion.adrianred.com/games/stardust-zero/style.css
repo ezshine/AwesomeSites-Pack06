@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'NB55RMS';
+    src: url('NB55RMS.woff2') format('woff2');
+}
+
+body, html { height: 100%; overflow: hidden; }
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #1a0629;
+    color: #fff;
+    font-family: 'NB55RMS', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+}
+
+#start-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#start-game-text {
+    animation: blink 1.5s infinite;
+    position: absolute;
+    bottom: 25vh;
+    font-size: 36px;
+    letter-spacing: 36px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    padding-left: 36px; /* Counteract letter-spacing on the last character */
+}
+
+#game-over-text {
+    animation: blink-fast 1s infinite;
+    font-size: 36px;
+    letter-spacing: 36px;
+    text-align: center;
+    padding-left: 36px;
+}
+
+#restart-text {
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+#copyright-text {
+    position: absolute;
+    bottom: 5vh;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+#gameOverScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#hud-container {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    z-index: 5;
+}
+
+#hud-container > div {
+    font-family: 'NB55RMS', sans-serif;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.2; }
+}
+
+@keyframes blink-fast {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.2; }
+}
+
+canvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"><circle cx="8" cy="8" r="4"/></svg>') 8 8, auto;
+}
+
+@media (pointer: coarse) {
+    #hud-container > div {
+        font-size: 14px;
+    }
+
+    .shoot-button .front {
+        display: none !important;
+    }
+
+    .shoot-button.nipple {
+        pointer-events: none;
+    }
+
+    .nipple {
+        display: none !important; /* Hide joystick by default */
+    }
+
+    .game-started .nipple {
+        display: block !important; /* Show joystick when game starts */
+    }
+}
+
+#multi-shot-button {
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    color: white;
+    font-family: 'NB55RMS', sans-serif;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transform: translate(50%, 50%); /* Center it on the coordinates */
+    display: none; /* Hidden by default */
+    user-select: none;
+    -webkit-user-select: none; /* For Safari */
+} 

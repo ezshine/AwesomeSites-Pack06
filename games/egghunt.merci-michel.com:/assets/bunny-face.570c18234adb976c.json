@@ -1,0 +1,47 @@
+{"frames": {
+
+"BunnyFace_1.jpg":
+{
+	"frame": {"x":3,"y":3,"w":461,"h":461},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":461,"h":461},
+	"sourceSize": {"w":461,"h":461}
+},
+"BunnyFace_2.jpg":
+{
+	"frame": {"x":3,"y":468,"w":461,"h":461},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":461,"h":461},
+	"sourceSize": {"w":461,"h":461}
+},
+"BunnyFace_3.jpg":
+{
+	"frame": {"x":468,"y":3,"w":461,"h":461},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":461,"h":461},
+	"sourceSize": {"w":461,"h":461}
+},
+"BunnyFace_4.jpg":
+{
+	"frame": {"x":468,"y":468,"w":461,"h":461},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":461,"h":461},
+	"sourceSize": {"w":461,"h":461}
+}},
+"animations": {
+	"BunnyFace": ["BunnyFace_1.jpg","BunnyFace_2.jpg","BunnyFace_3.jpg","BunnyFace_4.jpg"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "bunny-face.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:aa1b25120895a1677d35b369230e5afe:303e290db71bc5c661b198b4973e43da:71ba445896c02e7adeb682a7f636f631$"
+}
+}
